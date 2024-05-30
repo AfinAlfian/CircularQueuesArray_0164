@@ -66,8 +66,18 @@ public:
         if (FRONT <= REAR) {
             while (FRONT <= REAR) {
                 cout << queue_array[FRONT] << "  ";
-                FRONT++
+                FRONT++;
             }
+        }
+        else {
+            while (FRONT <= max - 1) {
+                cout << queue_array[FRONT] << "  ";
+                FRONT++;
+            }
+
+            FRONT = 0;
+
+
         }
     }
 };
