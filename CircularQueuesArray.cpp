@@ -81,11 +81,13 @@ public:
                 cout << queue_array[FRONT] << "  ";
                 FRONT++;
             }
+            cout << endl;
         }
     }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Queues q;
+    char ch;
 }
