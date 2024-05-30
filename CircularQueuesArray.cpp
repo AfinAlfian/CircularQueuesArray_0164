@@ -62,6 +62,13 @@ public:
         }
 
         cout << "\nElements in the queue arer...\n";
+
+        if (FRONT <= REAR) {
+            while (FRONT <= REAR) {
+                cout << queue_array[FRONT] << "  ";
+                FRONT++
+            }
+        }
     }
 };
 
