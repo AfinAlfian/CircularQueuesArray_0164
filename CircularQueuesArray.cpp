@@ -54,6 +54,15 @@ public:
                 FRONT = FRONT + 1;
         }
     }
+
+    void display() {
+        if (FRONT == -1) {
+            cout << "Queue is empty\n";
+            return;
+        }
+
+        cout << "\nElements in the queue arer...\n";
+    }
 };
 
 int main()
