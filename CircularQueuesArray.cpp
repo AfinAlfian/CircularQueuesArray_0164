@@ -37,7 +37,11 @@ public:
     }
 
     void remove() {
-
+        if (FRONT == -1) {
+            cout << "queue underflow\n";
+            return;
+        }
+        
     }
 };
 
